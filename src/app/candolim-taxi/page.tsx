@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import {
-  MapPin, Car, Clock,
-  Plane, Compass, Route,
-  CheckCircle, Star,
+   MapPin,
+  Star,  Car, Phone, MessageCircle,
 } from "lucide-react";
+import { BUSINESS, CALL_URL, REVIEWS } from "@/lib/constants";
 import LocationPageLayout from "@/components/ui/LocationPageLayout";
-import { BUSINESS, WHATSAPP_URL, REVIEWS } from "@/lib/constants";
+import { Plane, Compass, Route } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Taxi in Candolim Goa — 24x7 Cab Service | Sandy Taxi",
@@ -22,7 +22,6 @@ export const metadata: Metadata = {
   },
 };
 
-// LocalBusiness schema specific to Candolim
 function CandolimSchema() {
   const schema = {
     "@context": "https://schema.org",
@@ -66,24 +65,24 @@ function CandolimSchema() {
 }
 
 const NEARBY_AREAS = [
-  { name: "Sinquerim",    km: "1 km"  },
-  { name: "Nerul",        km: "3 km"  },
-  { name: "Calangute",    km: "4 km"  },
-  { name: "Aguada Fort",  km: "4 km"  },
-  { name: "Baga",         km: "7 km"  },
-  { name: "Anjuna",       km: "9 km"  },
-  { name: "Panaji",       km: "14 km" },
-  { name: "Mapusa",       km: "10 km" },
+  { name: "Sinquerim",       km: "1 km"  },
+  { name: "Nerul",           km: "3 km"  },
+  { name: "Calangute",       km: "4 km"  },
+  { name: "Aguada Fort",     km: "4 km"  },
+  { name: "Baga",            km: "7 km"  },
+  { name: "Anjuna",          km: "9 km"  },
+  { name: "Panaji",          km: "14 km" },
+  { name: "Mapusa",          km: "10 km" },
   { name: "Dabolim Airport", km: "30 km" },
-  { name: "Mopa Airport", km: "45 km" },
-  { name: "Vagator",      km: "12 km" },
-  { name: "Margao",       km: "40 km" },
+  { name: "Mopa Airport",    km: "45 km" },
+  { name: "Vagator",         km: "12 km" },
+  { name: "Margao",          km: "40 km" },
 ];
 
 const SERVICES_OFFERED = [
   { icon: Plane,   label: "Airport Transfer",  desc: "Dabolim & Mopa — fixed fares, flight tracking"  },
   { icon: Compass, label: "Sightseeing Tours", desc: "North & South Goa — full day & half day"        },
-  { icon: Route,   label: "Outstation Trips",  desc: "Pune, Mumbai, Bangalore & beyond"              },
+  { icon: Route,   label: "Outstation Trips",  desc: "Pune, Mumbai, Bangalore & beyond"               },
   { icon: Car,     label: "Local City Rides",  desc: "Beach to beach, hotel to market — 24x7"         },
 ];
 
@@ -95,7 +94,7 @@ export default function CandolimTaxiPage() {
         badge="Candolim, North Goa"
         title="Taxi in"
         titleHighlight="Candolim, Goa"
-        description="Sandy Taxi Service is based right in Candolim — so when you need a cab, we're already nearby. 24x7 availability, fixed fares, and a local driver who knows every road in North Goa."
+        description="Sandy Taxi Service is based right in Candolim — so when you need a cab, we are already nearby. 24x7 availability, fixed fares, and a local driver who knows every road in North Goa."
         icon={<MapPin size={28} />}
         areaName="Candolim"
       >
@@ -105,7 +104,6 @@ export default function CandolimTaxiPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-              {/* Text block */}
               <div>
                 <span className="badge-gold mb-5 inline-flex">
                   Based in Candolim
@@ -117,14 +115,14 @@ export default function CandolimTaxiPage() {
                 <div className="space-y-4 text-white/55 text-base leading-relaxed">
                   <p>
                     Sandy Taxi Service is based in Ordra, Candolim — right in the
-                    heart of North Goa's most popular tourist belt. Being local means
+                    heart of North Goa&apos;s most popular tourist belt. Being local means
                     faster pickup times, zero travel surcharges, and a driver who
                     genuinely knows the area.
                   </p>
                   <p>
                     Whether you need an early morning ride to Dabolim airport, a
                     full-day sightseeing tour, or just a quick cab to Calangute or
-                    Baga — we're always close by and ready.
+                    Baga — we are always close by and ready.
                   </p>
                   <p>
                     Tourists and residents in Candolim trust Sandy Taxi for reliable,
@@ -133,13 +131,12 @@ export default function CandolimTaxiPage() {
                   </p>
                 </div>
 
-                {/* Trust signals */}
                 <div className="grid grid-cols-2 gap-3 mt-8">
                   {[
-                    { value: "24x7",  label: "Available"       },
-                    { value: "5.0★",  label: "Google Rating"   },
+                    { value: "24x7",  label: "Available"        },
+                    { value: "5.0★",  label: "Google Rating"    },
                     { value: "Fixed", label: "Transparent Fare" },
-                    { value: "Local", label: "Candolim Based"  },
+                    { value: "Local", label: "Candolim Based"   },
                   ].map(({ value, label }) => (
                     <div key={label} className="card-dark p-4 text-center">
                       <p className="font-display font-extrabold text-sandy-gold text-xl">{value}</p>
@@ -147,9 +144,24 @@ export default function CandolimTaxiPage() {
                     </div>
                   ))}
                 </div>
+
+                <div className="flex flex-col sm:flex-row gap-4 mt-8">
+                  <a
+                    href={`https://api.whatsapp.com/send?phone=${BUSINESS.whatsapp}&text=${encodeURIComponent(BUSINESS.whatsappMsg)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn-primary justify-center"
+                  >
+                    <MessageCircle size={16} />
+                    Book on WhatsApp
+                  </a>
+                  <a href={CALL_URL} className="btn-outline justify-center">
+                    <Phone size={16} />
+                    {BUSINESS.phoneDisplay}
+                  </a>
+                </div>
               </div>
 
-              {/* Services */}
               <div className="space-y-4">
                 {SERVICES_OFFERED.map(({ icon: Icon, label, desc }) => (
                   <div
@@ -171,7 +183,7 @@ export default function CandolimTaxiPage() {
           </div>
         </section>
 
-        {/* ── Nearby areas coverage ── */}
+        {/* ── Nearby areas ── */}
         <section className="section-pad bg-night-navy">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
@@ -221,7 +233,7 @@ export default function CandolimTaxiPage() {
                     ))}
                   </div>
                   <p className="text-white/60 text-sm leading-relaxed flex-1">
-                    "{review.text}"
+                    &quot;{review.text}&quot;
                   </p>
                   <div className="flex items-center gap-3 pt-3 border-t border-white/5">
                     <div className="w-8 h-8 rounded-full bg-sandy-gold/10 border border-sandy-gold/20 flex items-center justify-center">

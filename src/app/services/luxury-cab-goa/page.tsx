@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Crown, Star, ShieldCheck,
-  Sparkles, CheckCircle, Heart,
-} from "lucide-react";
+import { Crown, Star, ShieldCheck, Sparkles, Heart } from "lucide-react";
 import ServicePageLayout from "@/components/ui/ServicePageLayout";
 import { WHATSAPP_URL } from "@/lib/constants";
 
@@ -55,21 +52,21 @@ const ACCENT_STYLES = {
 };
 
 const OCCASIONS = [
-  { icon: Heart,    label: "Wedding transfers",         accent: "pink" },
-  { icon: Sparkles, label: "Honeymoon travel",          accent: "gold" },
-  { icon: Crown,    label: "Anniversary trips",         accent: "cyan" },
-  { icon: Star,     label: "VIP airport transfers",     accent: "gold" },
-  { icon: Crown,    label: "Birthday celebrations",     accent: "pink" },
-  { icon: Sparkles, label: "Pre-wedding shoots",        accent: "cyan" },
-  { icon: Heart,    label: "Family special occasions",  accent: "gold" },
-  { icon: Star,     label: "Corporate VIP guests",      accent: "pink" },
+  { icon: Heart,    label: "Wedding transfers",        accent: "pink" },
+  { icon: Sparkles, label: "Honeymoon travel",         accent: "gold" },
+  { icon: Crown,    label: "Anniversary trips",        accent: "cyan" },
+  { icon: Star,     label: "VIP airport transfers",    accent: "gold" },
+  { icon: Crown,    label: "Birthday celebrations",    accent: "pink" },
+  { icon: Sparkles, label: "Pre-wedding shoots",       accent: "cyan" },
+  { icon: Heart,    label: "Family special occasions", accent: "gold" },
+  { icon: Star,     label: "Corporate VIP guests",     accent: "pink" },
 ];
 
 const VEHICLES = [
   {
     name: "Innova Crysta",
     capacity: "7 passengers",
-    desc: "Toyota's flagship MUV — spacious, smooth and ideal for groups or families wanting premium comfort.",
+    desc: "Toyota flagship MUV — spacious, smooth and ideal for groups or families wanting premium comfort.",
     accent: "gold",
   },
   {
@@ -98,7 +95,7 @@ export default function LuxuryCabGoaPage() {
       badge="Luxury Cab Goa"
       title="Premium Cab Service in"
       titleHighlight="Goa"
-      description="Travel in style with Sandy Taxi's luxury cab service. Premium vehicles, professional driver, and a seamless experience for weddings, honeymoons, special occasions and VIP transfers across Goa."
+      description="Travel in style with Sandy Taxi luxury cab service. Premium vehicles, professional driver, and a seamless experience for weddings, honeymoons, special occasions and VIP transfers across Goa."
       icon={<Crown size={28} />}
     >
 

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MapPin, Car, Plane, Compass, Route, Star } from "lucide-react";
+import { MapPin, Car, Plane, Compass, Route } from "lucide-react";
 import LocationPageLayout from "@/components/ui/LocationPageLayout";
 import { WHATSAPP_URL } from "@/lib/constants";
 
@@ -19,18 +19,18 @@ export const metadata: Metadata = {
 };
 
 const NORTH_GOA_AREAS = [
-  { name: "Candolim",     desc: "Our home base — fastest pickup"         },
-  { name: "Calangute",    desc: "Queen of beaches — most visited"        },
-  { name: "Baga",         desc: "Nightlife hub — late night pickups ok"  },
-  { name: "Anjuna",       desc: "Flea market, cliffs & beach shacks"     },
-  { name: "Vagator",      desc: "Chapora Fort & Ozran beach access"      },
-  { name: "Morjim",       desc: "Turtle beach — serene North Goa"        },
-  { name: "Arambol",      desc: "Northernmost beach — hippie paradise"   },
-  { name: "Mapusa",       desc: "Friday market & transport hub"          },
-  { name: "Panaji",       desc: "Capital city, ferry ghat & Old Goa"    },
-  { name: "Sinquerim",    desc: "Fort Aguada & luxury resort belt"       },
-  { name: "Arpora",       desc: "Saturday Night Bazaar area"             },
-  { name: "Porvorim",     desc: "North Goa commercial belt"              },
+  { name: "Candolim",  desc: "Our home base — fastest pickup"        },
+  { name: "Calangute", desc: "Queen of beaches — most visited"       },
+  { name: "Baga",      desc: "Nightlife hub — late night pickups ok" },
+  { name: "Anjuna",    desc: "Flea market, cliffs & beach shacks"    },
+  { name: "Vagator",   desc: "Chapora Fort & Ozran beach access"     },
+  { name: "Morjim",    desc: "Turtle beach — serene North Goa"       },
+  { name: "Arambol",   desc: "Northernmost beach — hippie paradise"  },
+  { name: "Mapusa",    desc: "Friday market & transport hub"         },
+  { name: "Panaji",    desc: "Capital city, ferry ghat & Old Goa"   },
+  { name: "Sinquerim", desc: "Fort Aguada & luxury resort belt"      },
+  { name: "Arpora",    desc: "Saturday Night Bazaar area"            },
+  { name: "Porvorim",  desc: "North Goa commercial belt"             },
 ];
 
 const POPULAR_ROUTES = [
@@ -45,10 +45,10 @@ const POPULAR_ROUTES = [
 ];
 
 const SERVICES = [
-  { icon: Plane,   label: "Airport Pickups",       desc: "Dabolim & Mopa — from any North Goa location" },
-  { icon: Compass, label: "North Goa Sightseeing", desc: "Beaches, forts, markets — full & half day"     },
-  { icon: Route,   label: "Outstation from Goa",   desc: "Pune, Mumbai, Bangalore and beyond"            },
-  { icon: Car,     label: "24x7 Local Rides",      desc: "Hotel, beach, restaurant — any time"           },
+  { icon: Plane,   label: "Airport Pickups",        desc: "Dabolim & Mopa — from any North Goa location" },
+  { icon: Compass, label: "North Goa Sightseeing",  desc: "Beaches, forts, markets — full & half day"    },
+  { icon: Route,   label: "Outstation from Goa",    desc: "Pune, Mumbai, Bangalore and beyond"           },
+  { icon: Car,     label: "24x7 Local Rides",       desc: "Hotel, beach, restaurant — any time"          },
 ];
 
 export default function NorthGoaTaxiPage() {
@@ -93,7 +93,7 @@ export default function NorthGoaTaxiPage() {
         </div>
       </section>
 
-      {/* ── Popular local routes ── */}
+      {/* ── Popular routes ── */}
       <section className="section-pad bg-night-navy">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">

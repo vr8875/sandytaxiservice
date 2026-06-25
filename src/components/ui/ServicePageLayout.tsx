@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { MessageCircle, Phone, ArrowRight } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
 import { WHATSAPP_URL, CALL_URL, BUSINESS } from "@/lib/constants";
 
 interface ServicePageLayoutProps {
@@ -32,30 +32,18 @@ export default function ServicePageLayout({
           }}
           aria-hidden="true"
         />
-
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          {/* Icon */}
           <div className="w-16 h-16 rounded-2xl bg-sandy-gold/10 border border-sandy-gold/20 flex items-center justify-center mx-auto mb-6 text-sandy-gold">
             {icon}
           </div>
-
-          {/* Badge */}
-          <span className="badge-gold mb-5 mx-auto">
-            {badge}
-          </span>
-
-          {/* Title */}
+          <span className="badge-gold mb-5 mx-auto">{badge}</span>
           <h1 className="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-white mb-5">
             {title}{" "}
             <span className="text-sandy-gold">{titleHighlight}</span>
           </h1>
-
-          {/* Description */}
           <p className="text-white/55 text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto mb-8">
             {description}
           </p>
-
-          {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={WHATSAPP_URL}
@@ -66,10 +54,7 @@ export default function ServicePageLayout({
               <MessageCircle size={18} />
               Book on WhatsApp
             </a>
-            <a
-              href={CALL_URL}
-              className="btn-outline text-base px-8 py-4 justify-center"
-            >
+            <a href={CALL_URL} className="btn-outline text-base px-8 py-4 justify-center">
               <Phone size={18} />
               {BUSINESS.phoneDisplay}
             </a>
@@ -77,16 +62,15 @@ export default function ServicePageLayout({
         </div>
       </section>
 
-      {/* ── Page-specific content ── */}
+      {/* ── Page content ── */}
       {children}
 
-      {/* ── Bottom CTA banner ── */}
+      {/* ── Bottom CTA ── */}
       <section className="relative py-16 overflow-hidden">
         <div
           className="absolute inset-0"
           style={{
-            background:
-              "linear-gradient(135deg, #1a0a00 0%, #0D0D1A 50%, #001a1f 100%)",
+            background: "linear-gradient(135deg, #1a0a00 0%, #0D0D1A 50%, #001a1f 100%)",
           }}
           aria-hidden="true"
         />
@@ -117,10 +101,7 @@ export default function ServicePageLayout({
               <MessageCircle size={18} />
               Book on WhatsApp
             </a>
-            <a
-              href={CALL_URL}
-              className="btn-outline text-base px-8 py-4 justify-center"
-            >
+            <a href={CALL_URL} className="btn-outline text-base px-8 py-4 justify-center">
               <Phone size={18} />
               {BUSINESS.phoneDisplay}
             </a>

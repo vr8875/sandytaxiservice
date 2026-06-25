@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Car, Clock, MapPin,
-  Zap, CheckCircle, Phone,
-} from "lucide-react";
+import { Car, Clock, MapPin, Zap, Phone } from "lucide-react";
 import ServicePageLayout from "@/components/ui/ServicePageLayout";
 import { WHATSAPP_URL, CALL_URL, BUSINESS } from "@/lib/constants";
 
@@ -25,13 +22,13 @@ const FEATURES = [
   {
     icon: Zap,
     title: "Quick Pickup",
-    desc: "Based in Candolim — fast response time for bookings across North Goa's tourist belt.",
+    desc: "Based in Candolim — fast response time for bookings across North Goa tourist belt.",
     accent: "gold",
   },
   {
     icon: Clock,
     title: "Available 24x7",
-    desc: "Late night beach party, early morning market run — we're available round the clock.",
+    desc: "Late night beach party, early morning market run — we are available round the clock.",
     accent: "cyan",
   },
   {
@@ -55,14 +52,14 @@ const ACCENT_STYLES = {
 };
 
 const COMMON_RIDES = [
-  { from: "Candolim",  to: "Calangute Beach",   price: "₹200–300"  },
-  { from: "Candolim",  to: "Baga Beach",         price: "₹300–400"  },
-  { from: "Candolim",  to: "Anjuna Beach",       price: "₹350–450"  },
-  { from: "Candolim",  to: "Panaji City",        price: "₹400–500"  },
-  { from: "Calangute", to: "Mapusa Market",      price: "₹250–350"  },
-  { from: "Candolim",  to: "Old Goa Churches",   price: "₹500–650"  },
-  { from: "Baga",      to: "Vagator",            price: "₹350–450"  },
-  { from: "Panaji",    to: "Miramar Beach",      price: "₹150–250"  },
+  { from: "Candolim",  to: "Calangute Beach",  price: "₹200–300"  },
+  { from: "Candolim",  to: "Baga Beach",        price: "₹300–400"  },
+  { from: "Candolim",  to: "Anjuna Beach",      price: "₹350–450"  },
+  { from: "Candolim",  to: "Panaji City",       price: "₹400–500"  },
+  { from: "Calangute", to: "Mapusa Market",     price: "₹250–350"  },
+  { from: "Candolim",  to: "Old Goa Churches",  price: "₹500–650"  },
+  { from: "Baga",      to: "Vagator",           price: "₹350–450"  },
+  { from: "Panaji",    to: "Miramar Beach",     price: "₹150–250"  },
 ];
 
 export default function CityTaxiGoaPage() {
@@ -81,7 +78,7 @@ export default function CityTaxiGoaPage() {
           <div className="text-center mb-12">
             <h2 className="font-display font-extrabold text-3xl sm:text-4xl text-white mb-3">
               Common Local{" "}
-              <span className="text-sandy-gold">Rides & Fares</span>
+              <span className="text-sandy-gold">Rides &amp; Fares</span>
             </h2>
             <p className="text-white/45 text-base">
               Approximate fares for popular city routes. Confirmed at booking.
@@ -112,7 +109,7 @@ export default function CityTaxiGoaPage() {
                       {ride.price}
                     </td>
                     <td className="px-6 py-4 text-right">
-                    <a
+                      <a
                         href={WHATSAPP_URL}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -140,9 +137,7 @@ export default function CityTaxiGoaPage() {
                   </p>
                 </div>
                 <div className="text-right">
-                  <p className="font-display font-extrabold text-sandy-gold">
-                    {ride.price}
-                  </p>
+                  <p className="font-display font-extrabold text-sandy-gold">{ride.price}</p>
                   <a
                     href={WHATSAPP_URL}
                     target="_blank"
@@ -157,7 +152,7 @@ export default function CityTaxiGoaPage() {
           </div>
 
           <p className="text-white/25 text-xs text-center">
-            Don't see your route? Call or WhatsApp us for an instant quote.
+            Don&apos;t see your route? Call or WhatsApp us for an instant quote.
           </p>
         </div>
       </section>

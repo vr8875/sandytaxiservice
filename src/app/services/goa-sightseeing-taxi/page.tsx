@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Compass, Sun, Clock,
-  MapPin, CheckCircle, Camera,
-} from "lucide-react";
+import { Compass, Sun, Clock, MapPin, CheckCircle, Camera } from "lucide-react";
 import ServicePageLayout from "@/components/ui/ServicePageLayout";
 import { WHATSAPP_URL } from "@/lib/constants";
 
@@ -16,31 +13,21 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Goa Sightseeing Taxi — Full Day & Half Day Tours",
     description:
-      "Explore Goa's beaches, forts and waterfalls by cab. Full day and half day tour packages. Fixed fares.",
+      "Explore Goa beaches, forts and waterfalls by cab. Full day and half day tour packages. Fixed fares.",
     url: "https://www.sandytaxigoa.com/services/goa-sightseeing-taxi",
   },
 };
 
 const NORTH_GOA = [
-  "Baga Beach",
-  "Calangute Beach",
-  "Anjuna Beach & Flea Market",
-  "Vagator & Chapora Fort",
-  "Fort Aguada",
-  "Candolim Beach",
-  "Mapusa Market",
-  "Arpora Night Market",
+  "Baga Beach", "Calangute Beach", "Anjuna Beach & Flea Market",
+  "Vagator & Chapora Fort", "Fort Aguada", "Candolim Beach",
+  "Mapusa Market", "Arpora Night Market",
 ];
 
 const SOUTH_GOA = [
-  "Palolem Beach",
-  "Colva Beach",
-  "Benaulim Beach",
-  "Basilica of Bom Jesus",
-  "Se Cathedral, Old Goa",
-  "Dudhsagar Falls",
-  "Spice Plantations, Ponda",
-  "Miramar Beach, Panaji",
+  "Palolem Beach", "Colva Beach", "Benaulim Beach",
+  "Basilica of Bom Jesus", "Se Cathedral, Old Goa",
+  "Dudhsagar Falls", "Spice Plantations, Ponda", "Miramar Beach, Panaji",
 ];
 
 const PACKAGES = [
@@ -71,7 +58,7 @@ const PACKAGES = [
 const ACCENT_STYLES = {
   gold: { border: "hover:border-sandy-gold/40", text: "text-sandy-gold", bg: "bg-sandy-gold/10" },
   cyan: { border: "hover:border-goa-cyan/40",   text: "text-goa-cyan",   bg: "bg-goa-cyan/10"  },
-  pink: { border: "hover:border-beach-pink/40", text: "text-beach-pink", bg: "bg-beach-pink/10" },
+  pink: { border: "hover:border-beach-pink/40", text: "text-beach-pink", bg: "bg-beach-pink/10"},
 };
 
 export default function GoaSightseeingPage() {
@@ -80,7 +67,7 @@ export default function GoaSightseeingPage() {
       badge="Goa Sightseeing Tours"
       title="Goa Sightseeing"
       titleHighlight="by Taxi"
-      description="Explore Goa's best beaches, historic forts, ancient churches and hidden waterfalls at your own pace — with a local driver who knows every spot worth visiting."
+      description="Explore Goa beaches, historic forts, ancient churches and hidden waterfalls at your own pace — with a local driver who knows every spot worth visiting."
       icon={<Compass size={28} />}
     >
 
@@ -95,7 +82,6 @@ export default function GoaSightseeingPage() {
               Choose a package based on how much of Goa you want to explore.
             </p>
           </div>
-
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-4xl mx-auto">
             {PACKAGES.map(({ title, duration, from, desc, accent, popular }) => {
               const styles = ACCENT_STYLES[accent as keyof typeof ACCENT_STYLES];
@@ -113,23 +99,17 @@ export default function GoaSightseeingPage() {
                     <Sun size={20} className={styles.text} />
                   </div>
                   <div>
-                    <h3 className="font-display font-bold text-white text-lg mb-1">
-                      {title}
-                    </h3>
+                    <h3 className="font-display font-bold text-white text-lg mb-1">{title}</h3>
                     <span className="badge-cyan text-[10px] py-0.5">
                       <Clock size={10} />
                       {duration}
                     </span>
                   </div>
-                  <p className="text-white/45 text-sm leading-relaxed flex-1">
-                    {desc}
-                  </p>
+                  <p className="text-white/45 text-sm leading-relaxed flex-1">{desc}</p>
                   <div className="pt-3 border-t border-white/5 flex items-center justify-between">
                     <div>
                       <p className="text-white/35 text-xs">Starting from</p>
-                      <p className={`font-display font-extrabold text-2xl ${styles.text}`}>
-                        {from}
-                      </p>
+                      <p className={`font-display font-extrabold text-2xl ${styles.text}`}>{from}</p>
                     </div>
                     <a
                       href={WHATSAPP_URL}
@@ -155,21 +135,16 @@ export default function GoaSightseeingPage() {
               Popular <span className="text-sandy-gold">Destinations</span>
             </h2>
             <p className="text-white/45 text-base max-w-lg mx-auto">
-              Tell us your must-see spots — we'll plan the most efficient route.
+              Tell us your must-see spots — we&apos;ll plan the most efficient route.
             </p>
           </div>
-
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-
-            {/* North Goa */}
             <div className="card-dark p-7">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-xl bg-sandy-gold/10 flex items-center justify-center">
                   <MapPin size={18} className="text-sandy-gold" />
                 </div>
-                <h3 className="font-display font-bold text-white text-xl">
-                  North Goa
-                </h3>
+                <h3 className="font-display font-bold text-white text-xl">North Goa</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
                 {NORTH_GOA.map((place) => (
@@ -180,16 +155,12 @@ export default function GoaSightseeingPage() {
                 ))}
               </div>
             </div>
-
-            {/* South Goa */}
             <div className="card-dark p-7">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 rounded-xl bg-goa-cyan/10 flex items-center justify-center">
                   <MapPin size={18} className="text-goa-cyan" />
                 </div>
-                <h3 className="font-display font-bold text-white text-xl">
-                  South Goa
-                </h3>
+                <h3 className="font-display font-bold text-white text-xl">South Goa</h3>
               </div>
               <div className="grid grid-cols-2 gap-2">
                 {SOUTH_GOA.map((place) => (
@@ -200,7 +171,6 @@ export default function GoaSightseeingPage() {
                 ))}
               </div>
             </div>
-
           </div>
         </div>
       </section>

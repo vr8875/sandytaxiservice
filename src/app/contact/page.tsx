@@ -32,6 +32,7 @@ const CONTACT_ITEMS = [
     sub: "Tap to call directly",
     href: CALL_URL,
     accent: "gold",
+    external: false,
   },
   {
     icon: MessageCircle,
@@ -58,6 +59,7 @@ const CONTACT_ITEMS = [
     sub: "Monday to Sunday, no holidays",
     href: null,
     accent: "gold",
+    external: false,
   },
 ];
 
@@ -66,6 +68,54 @@ const ACCENT_STYLES = {
   cyan: { bg: "bg-goa-cyan/10",   text: "text-goa-cyan",   border: "hover:border-goa-cyan/40"   },
   pink: { bg: "bg-beach-pink/10", text: "text-beach-pink", border: "hover:border-beach-pink/40" },
 };
+
+interface ContactCardProps {
+  icon: React.ElementType;
+  label: string;
+  value: string;
+  sub: string;
+  href: string | null;
+  accent: string;
+  external: boolean;
+}
+
+function ContactCard({ icon: Icon, label, value, sub, href, accent, external }: ContactCardProps) {
+  const styles = ACCENT_STYLES[accent as keyof typeof ACCENT_STYLES];
+
+  const inner = (
+    <>
+      <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${styles.bg}`}>
+        <Icon size={22} className={styles.text} />
+      </div>
+      <div>
+        <p className="text-white/40 text-xs uppercase tracking-widest mb-1">{label}</p>
+        <p className="text-white font-display font-bold text-lg leading-snug mb-1">{value}</p>
+        <p className="text-white/40 text-sm">{sub}</p>
+      </div>
+    </>
+  );
+
+  const baseClass = `card-dark p-8 flex items-start gap-5 transition-all duration-200 ${styles.border}`;
+
+  if (href) {
+    return (
+      <a
+        href={href}
+        target={external ? "_blank" : undefined}
+        rel={external ? "noopener noreferrer" : undefined}
+        className={`${baseClass} cursor-pointer`}
+      >
+        {inner}
+      </a>
+    );
+  }
+
+  return (
+    <div className={baseClass}>
+      {inner}
+    </div>
+  );
+}
 
 export default function ContactPage() {
   return (
@@ -100,50 +150,16 @@ export default function ContactPage() {
       {/* ── Contact cards ── */}
       <section className="section-pad bg-[#080810]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-14">
-            {CONTACT_ITEMS.map(({ icon: Icon, label, value, sub, href, accent, external }) => {
-              const styles = ACCENT_STYLES[accent as keyof typeof ACCENT_STYLES];
-              const Wrapper = href ? "a" : "div";
-              const wrapperProps = href
-                ? {
-                    href,
-                    ...(external ? { target: "_blank", rel: "noopener noreferrer" } : {}),
-                  }
-                : {};
 
-              return (
-                <Wrapper
-                  key={label}
-                  {...(wrapperProps as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
-                  className={`
-                    card-dark p-8 flex items-start gap-5
-                    transition-all duration-200
-                    ${styles.border}
-                    ${href ? "cursor-pointer" : ""}
-                  `}
-                >
-                  <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${styles.bg}`}>
-                    <Icon size={22} className={styles.text} />
-                  </div>
-                  <div>
-                    <p className="text-white/40 text-xs uppercase tracking-widest mb-1">
-                      {label}
-                    </p>
-                    <p className="text-white font-display font-bold text-lg leading-snug mb-1">
-                      {value}
-                    </p>
-                    <p className="text-white/40 text-sm">
-                      {sub}
-                    </p>
-                  </div>
-                </Wrapper>
-              );
-            })}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-14">
+            {CONTACT_ITEMS.map((item) => (
+              <ContactCard key={item.label} {...item} />
+            ))}
           </div>
 
           {/* ── Primary CTAs ── */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <a 
+            <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
@@ -171,7 +187,7 @@ export default function ContactPage() {
               <div className="rounded-xl overflow-hidden">
                 <iframe
                   title="Sandy Taxi Service Location — Candolim, Goa"
-                  src={`https://maps.google.com/maps?q=Candolim+Goa+India&t=&z=14&ie=UTF8&iwloc=&output=embed`}
+                  src="https://maps.google.com/maps?q=Candolim+Goa+India&t=&z=14&ie=UTF8&iwloc=&output=embed"
                   width="100%"
                   height="380"
                   style={{ border: 0, display: "block" }}
@@ -187,7 +203,7 @@ export default function ContactPage() {
           <div className="text-center mt-12">
             <p className="text-white/30 text-sm mb-4">Follow us on social media</p>
             <div className="flex items-center justify-center gap-4">
-              <a 
+              <a
                 href="https://www.instagram.com/sandyyy_chvn?utm_source=qr&igsh=MWducTdjbXV1dzIyMg=="
                 target="_blank"
                 rel="noopener noreferrer"
@@ -197,7 +213,7 @@ export default function ContactPage() {
                 <SiInstagram size={16} />
                 Instagram
               </a>
-              <a 
+              <a
                 href="https://www.facebook.com/share/1LZNmg2toN/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -212,6 +228,7 @@ export default function ContactPage() {
 
         </div>
       </section>
+
     </main>
   );
 }

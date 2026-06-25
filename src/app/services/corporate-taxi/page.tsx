@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Briefcase, Clock, ShieldCheck,
-  UserCheck, CheckCircle, Building2,
-} from "lucide-react";
+import { Briefcase, Clock, ShieldCheck, UserCheck, CheckCircle, Building2 } from "lucide-react";
 import ServicePageLayout from "@/components/ui/ServicePageLayout";
 import { WHATSAPP_URL } from "@/lib/constants";
 
@@ -84,7 +81,7 @@ export default function CorporateTaxiPage() {
               <span className="text-sandy-gold">Business Travel</span>
             </h2>
             <p className="text-white/45 text-base max-w-lg mx-auto">
-              We understand that corporate travel has different standards. Here's how we meet them.
+              We understand corporate travel has different standards. Here is how we meet them.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -124,7 +121,7 @@ export default function CorporateTaxiPage() {
             </div>
             <div className="mt-8 pt-6 border-t border-white/5 text-center">
               <p className="text-white/40 text-sm mb-4">
-                Need a corporate package or recurring bookings? Let's discuss.
+                Need a corporate package or recurring bookings? Let us discuss.
               </p>
               <a
                 href={WHATSAPP_URL}
