@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Book a city taxi in Goa anytime. 24x7 local cab service covering all beaches, hotels, markets and restaurants in North and South Goa. Quick pickup, fixed fares. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/services/city-taxi-goa",
+    canonical: "https://www.sandytaxiservice.com/services/city-taxi-goa",
   },
   openGraph: {
     title: "City Taxi in Goa — 24x7 Local Cab Service | Sandy Taxi",
     description:
       "24x7 local city taxi in Goa. Beach to beach, hotel to market — quick pickup, fixed fares.",
-    url: "http://sandytaxiservice.com/services/city-taxi-goa",
+    url: "https://www.sandytaxiservice.com/services/city-taxi-goa",
   },
 };
 

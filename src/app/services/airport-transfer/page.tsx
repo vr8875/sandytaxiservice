@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description:
     "Reliable airport taxi in Goa. Pickup and drop to Dabolim (GOI) and Mopa (Manohar) airport from anywhere in Goa. 24x7, fixed fares, flight tracking. Book Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/services/airport-transfer",
+    canonical: "https://www.sandytaxiservice.com/services/airport-transfer",
   },
   openGraph: {
     title: "Airport Taxi Goa — Dabolim & Mopa Airport Transfer",
     description:
       "24x7 airport cab in Goa. Fixed fares, on-time pickup, flight tracking. Dabolim & Mopa airports.",
-    url: "http://sandytaxiservice.com/services/airport-transfer",
+    url: "https://www.sandytaxiservice.com/services/airport-transfer",
   },
 };
 

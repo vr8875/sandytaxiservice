@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "Meet Sandy — your trusted local taxi driver in Goa. Based in Candolim, offering reliable 24x7 cab service across North & South Goa. Learn about our story and commitment to safe travel.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/about",
+    canonical: "https://www.sandytaxiservice.com/about",
   },
   openGraph: {
     title: "About Sandy Taxi Service — Candolim, Goa",
     description:
       "Meet Sandy — your trusted local taxi driver in Goa. Reliable, affordable, 24x7.",
-    url: "http://sandytaxiservice.com/about",
+    url: "https://www.sandytaxiservice.com/about",
   },
 };
 

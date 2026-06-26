@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description:
     "Book outstation cab from Goa to Pune, Mumbai, Bangalore, Mangalore, Gokarna and more. Fixed fares, experienced driver, comfortable AC vehicle. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/services/outstation-taxi",
+    canonical: "https://www.sandytaxiservice.com/services/outstation-taxi",
   },
   openGraph: {
     title: "Outstation Taxi from Goa — Pune, Mumbai, Bangalore & More",
     description:
       "One-way and round-trip outstation cab from Goa. Fixed fares to Pune, Mumbai, Bangalore, Mangalore and more.",
-    url: "http://sandytaxiservice.com/services/outstation-taxi",
+    url: "https://www.sandytaxiservice.com/services/outstation-taxi",
   },
 };
 

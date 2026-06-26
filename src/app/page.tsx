@@ -10,13 +10,13 @@ export const metadata: Metadata = {
   description:
     "Sandy Taxi Service offers reliable 24x7 cab service in Goa. Airport transfers, sightseeing, outstation & corporate taxi from Candolim, North Goa. Call +91 91486 80513.",
   alternates: {
-    canonical: "https://sandytaxiservice.com",
+    canonical: "https://www.sandytaxiservice.com",
   },
   openGraph: {
     title: "Sandy Taxi Service Goa — 24x7 Cab Service in Candolim",
     description:
       "Reliable 24x7 taxi in Goa. Airport transfers, sightseeing, outstation & more. Based in Candolim, North Goa.",
-    url: "https://sandytaxiservice.com",
+    url: "https://www.sandytaxiservice.com",
   },
 };
 

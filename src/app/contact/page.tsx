@@ -14,13 +14,13 @@ export const metadata: Metadata = {
   description:
     "Contact Sandy Taxi Service to book a cab in Goa. Call or WhatsApp +91 91486 80513. Based in Candolim, North Goa. Available 24x7 for airport transfers, sightseeing and outstation trips.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/contact",
+    canonical: "https://www.sandytaxiservice.com/contact",
   },
   openGraph: {
     title: "Contact Sandy Taxi Service — Book a Cab in Goa",
     description:
       "Call or WhatsApp +91 91486 80513 to book a cab in Goa. 24x7 available from Candolim.",
-    url: "http://sandytaxiservice.com/contact",
+    url: "https://www.sandytaxiservice.com/contact",
   },
 };
 

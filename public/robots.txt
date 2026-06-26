@@ -12,5 +12,5 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://sandytaxiservice.com/sitemap.xml
-Host: https://sandytaxiservice.com
+Sitemap: https://www.sandytaxiservice.com/sitemap.xml
+Host: https://www.sandytaxiservice.com

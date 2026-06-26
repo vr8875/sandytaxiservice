@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Professional corporate taxi service in Goa. Business travel, hotel transfers, airport pickups and monthly packages. Reliable, punctual and discreet. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/services/corporate-taxi",
+    canonical: "https://www.sandytaxiservice.com/services/corporate-taxi",
   },
   openGraph: {
     title: "Corporate Taxi Goa — Business Cab Service | Sandy Taxi",
     description:
       "Professional corporate cab in Goa. Business travel, hotel transfers, airport runs. Fixed fares, punctual service.",
-    url: "http://sandytaxiservice.com/services/corporate-taxi",
+    url: "https://www.sandytaxiservice.com/services/corporate-taxi",
   },
 };
 

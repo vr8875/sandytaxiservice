@@ -1,11 +1,10 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "http://sandytaxiservice.com";
+const BASE_URL = "https://www.sandytaxiservice.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  // ── Core pages ────────────────────────────────────────────
   const corePages: MetadataRoute.Sitemap = [
     {
       url: BASE_URL,
@@ -33,7 +32,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // ── Service pages ─────────────────────────────────────────
   const servicesSlugs = [
     "airport-transfer",
     "goa-sightseeing-taxi",
@@ -52,13 +50,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  // ── Location pages ────────────────────────────────────────
   const locationSlugs = [
     "candolim-taxi",
     "north-goa-taxi",
     "south-goa-taxi",
     "calangute-taxi",
-    "panaji-taxi",
     "goa-airport-taxi",
   ];
 
@@ -69,12 +65,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  // ── Destination pages ─────────────────────────────────────
   const destinationSlugs = [
-    "goa-beach-taxi",
     "dudhsagar-falls-taxi",
-    "old-goa-churches-taxi",
-    "spice-plantation-taxi",
   ];
 
   const destinationPages: MetadataRoute.Sitemap = destinationSlugs.map(

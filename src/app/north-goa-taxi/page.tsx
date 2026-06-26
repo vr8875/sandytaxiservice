@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Reliable taxi service in North Goa. Covering Candolim, Calangute, Baga, Anjuna, Vagator, Mapusa, Panaji and all North Goa beaches. 24x7, fixed fares. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/north-goa-taxi",
+    canonical: "https://www.sandytaxiservice.com/north-goa-taxi",
   },
   openGraph: {
     title: "North Goa Taxi Service — Cab Hire in North Goa",
     description:
       "24x7 taxi in North Goa. Candolim, Calangute, Baga, Anjuna, Vagator & more. Fixed fares.",
-    url: "http://sandytaxiservice.com/north-goa-taxi",
+    url: "https://www.sandytaxiservice.com/north-goa-taxi",
   },
 };
 

@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Explore Goa by cab with Sandy Taxi. Full day and half day sightseeing tours covering North Goa beaches, forts, churches, waterfalls and South Goa attractions. Fixed fares.",
   alternates: {
-    canonical: "http://sandytaxiservice.com/services/goa-sightseeing-taxi",
+    canonical: "https://www.sandytaxiservice.com/services/goa-sightseeing-taxi",
   },
   openGraph: {
     title: "Goa Sightseeing Taxi — Full Day & Half Day Tours",
     description:
       "Explore Goa beaches, forts and waterfalls by cab. Full day and half day tour packages. Fixed fares.",
-    url: "http://sandytaxiservice.com/services/goa-sightseeing-taxi",
+    url: "https://www.sandytaxiservice.com/services/goa-sightseeing-taxi",
   },
 };
 

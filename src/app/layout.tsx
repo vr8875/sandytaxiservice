@@ -6,7 +6,7 @@ import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import LocalBusinessSchema from "@/components/seo/LocalBusinessSchema";
 import { BUSINESS } from "@/lib/constants";
 
-const BASE_URL = "https://sandytaxiservice.com";
+const BASE_URL = "https://www.sandytaxiservice.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
