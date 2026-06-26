@@ -34,14 +34,14 @@ const NORTH_GOA_AREAS = [
 ];
 
 const POPULAR_ROUTES = [
-  { from: "Candolim",  to: "Calangute Beach", price: "₹200–300"  },
-  { from: "Candolim",  to: "Anjuna Beach",    price: "₹350–450"  },
-  { from: "Candolim",  to: "Vagator",         price: "₹400–500"  },
-  { from: "Candolim",  to: "Panaji",          price: "₹400–500"  },
+  { from: "Candolim",  to: "Calangute Beach", price: "₹700–800"  },
+  { from: "Candolim",  to: "Anjuna Beach",    price: "₹1200–1500"  },
+  { from: "Candolim",  to: "Vagator",         price: "₹800–1000"  },
+  { from: "Candolim",  to: "Panaji",          price: "₹1000–1200"  },
   { from: "Candolim",  to: "Mapusa",          price: "₹300–400"  },
   { from: "Calangute", to: "Dabolim Airport", price: "₹900–1100" },
   { from: "Baga",      to: "Mopa Airport",    price: "₹1200–1500"},
-  { from: "Anjuna",    to: "Old Goa",         price: "₹600–800"  },
+  { from: "Anjuna",    to: "Old Goa",         price: "₹1000–1200"  },
 ];
 
 const SERVICES = [
