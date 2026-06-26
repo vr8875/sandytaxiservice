@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Premium luxury cab service in Goa. Innova Crysta, SUV and high-end vehicles for weddings, honeymoons, special occasions and VIP airport transfers. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "https://www.sandytaxigoa.com/services/luxury-cab-goa",
+    canonical: "http://sandytaxiservice.com/services/luxury-cab-goa",
   },
   openGraph: {
     title: "Luxury Cab Goa — Premium Taxi Service | Sandy Taxi",
     description:
       "Premium cab in Goa for weddings, honeymoons and special occasions. Innova Crysta & SUV. Fixed fares.",
-    url: "https://www.sandytaxigoa.com/services/luxury-cab-goa",
+    url: "http://sandytaxiservice.com/services/luxury-cab-goa",
   },
 };
 

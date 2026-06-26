@@ -7,10 +7,10 @@ export default function LocalBusinessSchema() {
     name: BUSINESS.name,
     description:
       "Sandy Taxi Service provides reliable, affordable 24x7 taxi services in Goa including airport transfers, sightseeing tours, outstation trips, and corporate cab services. Based in Candolim, North Goa.",
-    url: "https://www.sandytaxigoa.com",
+    url: "http://sandytaxiservice.com",
     telephone: `+91${BUSINESS.phone}`,
-    image: "https://www.sandytaxigoa.com/og-image.jpg",
-    logo: "https://www.sandytaxigoa.com/logo.png",
+    image: "http://sandytaxiservice.com/og-image.jpg",
+    logo: "http://sandytaxiservice.com/logo.png",
     priceRange: "₹₹",
     openingHours: "Mo-Su 00:00-23:59",
     address: {

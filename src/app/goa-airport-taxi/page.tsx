@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description:
     "Pre-book airport taxi in Goa. Cab service to and from Dabolim (GOI) and Mopa Manohar International Airport. 24x7, fixed fares, meet & greet. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "https://www.sandytaxigoa.com/goa-airport-taxi",
+    canonical: "http://sandytaxiservice.com/goa-airport-taxi",
   },
   openGraph: {
     title: "Goa Airport Taxi — Dabolim & Mopa Airport Cab",
     description:
       "Pre-book airport cab in Goa. Fixed fares, meet & greet, 24x7. Dabolim & Mopa airports.",
-    url: "https://www.sandytaxigoa.com/goa-airport-taxi",
+    url: "http://sandytaxiservice.com/goa-airport-taxi",
   },
 };
 
@@ -28,7 +28,7 @@ function AirportTaxiSchema() {
     "@type": "TaxiService",
     name: "Goa Airport Taxi — Sandy Taxi Service",
     telephone: `+91${BUSINESS.phone}`,
-    url: "https://www.sandytaxigoa.com/goa-airport-taxi",
+    url: "http://sandytaxiservice.com/goa-airport-taxi",
     description:
       "Airport taxi transfers to and from Dabolim and Mopa airports in Goa. Fixed fares, 24x7 service, meet & greet on arrival.",
     address: {

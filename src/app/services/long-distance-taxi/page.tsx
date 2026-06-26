@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   description:
     "Book a long distance taxi from Goa to Mumbai, Pune, Bangalore, Hyderabad, Mangalore and more. Comfortable AC vehicle, experienced driver, planned rest stops. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "https://www.sandytaxigoa.com/services/long-distance-taxi",
+    canonical: "http://sandytaxiservice.com/services/long-distance-taxi",
   },
   openGraph: {
     title: "Long Distance Taxi from Goa — Intercity Cab | Sandy Taxi",
     description:
       "Long distance cab from Goa. Mumbai, Pune, Bangalore, Hyderabad and more. Comfortable AC ride, fixed fares.",
-    url: "https://www.sandytaxigoa.com/services/long-distance-taxi",
+    url: "http://sandytaxiservice.com/services/long-distance-taxi",
   },
 };
 

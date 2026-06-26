@@ -12,5 +12,5 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://www.sandytaxigoa.com/sitemap.xml
-Host: https://www.sandytaxigoa.com
+Sitemap: https://sandytaxiservice.com/sitemap.xml
+Host: https://sandytaxiservice.com

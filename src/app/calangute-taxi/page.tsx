@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Book a taxi in Calangute, Goa. Reliable cab service from Calangute Beach for airport transfers, sightseeing, outstation and local rides. 24x7, fixed fares. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "https://www.sandytaxigoa.com/calangute-taxi",
+    canonical: "http://sandytaxiservice.com/calangute-taxi",
   },
   openGraph: {
     title: "Taxi in Calangute Goa — Cab Service Calangute Beach",
     description:
       "24x7 taxi in Calangute, Goa. Airport transfers, sightseeing & outstation. Fixed fares.",
-    url: "https://www.sandytaxigoa.com/calangute-taxi",
+    url: "http://sandytaxiservice.com/calangute-taxi",
   },
 };
 

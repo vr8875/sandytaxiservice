@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Reliable taxi service in South Goa. Covering Palolem, Colva, Benaulim, Margao, Vasco, Agonda and all South Goa beaches. 24x7, fixed fares. Sandy Taxi +91 91486 80513.",
   alternates: {
-    canonical: "https://www.sandytaxigoa.com/south-goa-taxi",
+    canonical: "http://sandytaxiservice.com/south-goa-taxi",
   },
   openGraph: {
     title: "South Goa Taxi Service — Cab Hire in South Goa",
     description:
       "24x7 taxi in South Goa. Palolem, Colva, Benaulim, Margao, Vasco & more. Fixed fares.",
-    url: "https://www.sandytaxigoa.com/south-goa-taxi",
+    url: "http://sandytaxiservice.com/south-goa-taxi",
   },
 };
 

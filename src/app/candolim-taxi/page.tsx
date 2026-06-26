@@ -12,13 +12,13 @@ export const metadata: Metadata = {
   description:
     "Looking for a taxi in Candolim, Goa? Sandy Taxi Service is based in Candolim and offers 24x7 cab service for airport transfers, sightseeing, outstation and local rides. Call +91 91486 80513.",
   alternates: {
-    canonical: "https://www.sandytaxigoa.com/candolim-taxi",
+    canonical: "http://sandytaxiservice.com/candolim-taxi",
   },
   openGraph: {
     title: "Taxi in Candolim Goa — 24x7 Cab Service | Sandy Taxi",
     description:
       "Candolim-based taxi service. 24x7 airport transfers, sightseeing & outstation. Call +91 91486 80513.",
-    url: "https://www.sandytaxigoa.com/candolim-taxi",
+    url: "http://sandytaxiservice.com/candolim-taxi",
   },
 };
 
@@ -28,7 +28,7 @@ function CandolimSchema() {
     "@type": "TaxiService",
     name: "Sandy Taxi Service — Candolim Goa",
     telephone: `+91${BUSINESS.phone}`,
-    url: "https://www.sandytaxigoa.com/candolim-taxi",
+    url: "http://sandytaxiservice.com/candolim-taxi",
     address: {
       "@type": "PostalAddress",
       streetAddress: BUSINESS.address.street,

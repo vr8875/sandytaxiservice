@@ -14,13 +14,13 @@ export const metadata: Metadata = {
   description:
     "Check Sandy Taxi Service fare chart for Goa. Transparent pricing for airport transfers, local rentals, sightseeing packages and outstation trips. No hidden charges. Call +91 91486 80513.",
   alternates: {
-    canonical: "https://www.sandytaxigoa.com/tariff",
+    canonical: "http://sandytaxiservice.com/tariff",
   },
   openGraph: {
     title: "Taxi Fare & Tariff in Goa — Sandy Taxi Service",
     description:
       "Fixed, transparent cab fares in Goa. Local rentals, airport transfers, outstation routes. No hidden charges.",
-    url: "https://www.sandytaxigoa.com/tariff",
+    url: "http://sandytaxiservice.com/tariff",
   },
 };
 
