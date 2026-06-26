@@ -33,6 +33,10 @@ export const metadata: Metadata = {
   authors: [{ name: BUSINESS.name }],
   creator: BUSINESS.name,
   publisher: BUSINESS.name,
+
+  verification: {
+    google: "ZL_FGVzkB7A16T5MiVhf-lj0K31SF01q8WgfQWr5tXM",
+  },
   robots: {
     index: true,
     follow: true,
