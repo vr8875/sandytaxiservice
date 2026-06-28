@@ -52,14 +52,14 @@ const ACCENT_STYLES = {
 };
 
 const COMMON_RIDES = [
-  { from: "Candolim",  to: "Calangute Beach", price: "₹200–300" },
-  { from: "Candolim",  to: "Baga Beach",       price: "₹300–400" },
-  { from: "Candolim",  to: "Anjuna Beach",     price: "₹350–450" },
-  { from: "Candolim",  to: "Panaji City",      price: "₹400–500" },
-  { from: "Calangute", to: "Mapusa Market",    price: "₹250–350" },
-  { from: "Candolim",  to: "Old Goa Churches", price: "₹500–650" },
-  { from: "Baga",      to: "Vagator",          price: "₹350–450" },
-  { from: "Panaji",    to: "Miramar Beach",    price: "₹150–250" },
+  { from: "Candolim",  to: "Calangute Beach", price: "₹700–1000" },
+  { from: "Candolim",  to: "Baga Beach",       price: "₹800–1000" },
+  { from: "Candolim",  to: "Anjuna Beach",     price: "₹850–950" },
+  { from: "Candolim",  to: "Panaji City",      price: "₹900–1100" },
+  { from: "Calangute", to: "Mapusa Market",    price: "₹750–850" },
+  { from: "Candolim",  to: "Old Goa Churches", price: "₹1000–1250" },
+  { from: "Baga",      to: "Vagator",          price: "₹800–1000" },
+  { from: "Panaji",    to: "Miramar Beach",    price: "₹700–800" },
 ];
 
 const RAILWAY_STATIONS = [
