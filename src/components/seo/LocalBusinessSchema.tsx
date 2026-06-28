@@ -27,32 +27,58 @@ export default function LocalBusinessSchema() {
       longitude: BUSINESS.geo.lng,
     },
     areaServed: [
-      { "@type": "City",  name: "Goa"        },
-      { "@type": "Place", name: "North Goa"  },
-      { "@type": "Place", name: "South Goa"  },
-      { "@type": "Place", name: "Candolim"   },
-      { "@type": "Place", name: "Calangute"  },
-      { "@type": "Place", name: "Baga"       },
-      { "@type": "Place", name: "Anjuna"     },
-      { "@type": "Place", name: "Panaji"     },
-      { "@type": "Place", name: "Margao"     },
+      { "@type": "City", name: "Goa" },
+      { "@type": "Place", name: "North Goa" },
+      { "@type": "Place", name: "South Goa" },
+      { "@type": "Place", name: "Candolim" },
+      { "@type": "Place", name: "Calangute" },
+      { "@type": "Place", name: "Baga" },
+      { "@type": "Place", name: "Anjuna" },
+      { "@type": "Place", name: "Panaji" },
+      { "@type": "Place", name: "Margao" },
       { "@type": "Place", name: "Vasco da Gama" },
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Taxi Services in Goa",
       itemListElement: [
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Airport Taxi Transfer Goa"    } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Goa Sightseeing Taxi"         } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Outstation Taxi from Goa"     } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Corporate Taxi Goa"           } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Luxury Cab Goa"               } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "North Goa Taxi"               } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "South Goa Taxi"               } },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Airport Taxi Transfer Goa",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: "Goa Sightseeing Taxi" },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: "Outstation Taxi from Goa" },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: "Corporate Taxi Goa" },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: "Luxury Cab Goa" },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: "North Goa Taxi" },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: { "@type": "Service", name: "South Goa Taxi" },
+        },
       ],
     },
     sameAs: [
-      "https://www.google.com/maps/place/Sandy+Taxi+Service",
+      "https://www.facebook.com/share/1LZNmg2toN/",
+      "https://www.instagram.com/sandyyy_chvn?utm_source=qr&igsh=MWducTdjbXV1dzIyMg==",
+      "https://share.google/aPCY5kQD8CeFh2r2e",
     ],
   };
 
