@@ -61,14 +61,15 @@ export const RENTAL_PACKAGES = [
 ] as const;
 
 export const OUTSTATION_ROUTES = [
-  { from: "Goa", to: "Gokarna",     km: 151, price: "₹5,500"  },
-  { from: "Goa", to: "Kolhapur",    km: 192, price: "₹8,000"  },
-  { from: "Goa", to: "Miraj",       km: 208, price: "₹8,500"  },
-  { from: "Goa", to: "Pune",        km: 454, price: "₹16,000" },
-  { from: "Goa", to: "Mumbai",      km: 539, price: "₹18,000" },
-  { from: "Goa", to: "Hyderabad",   km: 692, price: "₹23,000" },
-  { from: "Goa", to: "Bangalore",   km: 560, price: "₹20,000" },
-  { from: "Goa", to: "Mangalore",   km: 350, price: "₹13,000" },
+  { from: "Goa", to: "Gokarna",     km: 151, price: "₹12,000 - 15,000"  },
+  { from: "Goa", to: "Kolhapur",    km: 192, price: "₹12,000 - 15,000"  },
+  { from: "Goa", to: "Miraj",       km: 208, price: "₹12,000 - 15,000"  },
+  { from: "Goa", to: "Pune",        km: 454, price: "₹18,000 - 20,000" },
+  { from: "Goa", to: "Mumbai",      km: 539, price: "₹25,000 - 30,000" },
+  { from: "Goa", to: "Hyderabad",   km: 692, price: "₹30,000 - 35,000" },
+  { from: "Goa", to: "Bangalore",   km: 560, price: "₹25,000 - 30,000" },
+  { from: "Goa", to: "Mangalore",   km: 350, price: "₹15,000 - 18,000" },
+  { from: "Goa", to: "Hampi",   km: 350, price: "₹18,000 - 20,000" }
 ] as const;
 
 export const DUDHSAGAR_PRICES = [

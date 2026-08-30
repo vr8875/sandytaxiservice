@@ -34,14 +34,14 @@ const PACKAGES = [
   {
     title: "Half Day Tour",
     duration: "4 hrs / 40 km",
-    from: "₹1,500",
+    from: "₹2,500",
     desc: "Perfect for a quick beach run or a focused north or south Goa highlights trip.",
     accent: "cyan",
   },
   {
     title: "Full Day Tour",
     duration: "8 hrs / 80 km",
-    from: "₹2,200",
+    from: "₹3,500",
     desc: "Cover both north and south Goa comfortably — beaches, forts, churches and markets.",
     accent: "gold",
     popular: true,
@@ -49,7 +49,7 @@ const PACKAGES = [
   {
     title: "Extended Tour",
     duration: "12 hrs / 120 km",
-    from: "₹3,300",
+    from: "₹5,500",
     desc: "All-day deep dive into Goa. Ideal for families or groups wanting to see everything.",
     accent: "pink",
   },

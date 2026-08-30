@@ -105,11 +105,11 @@ const AIRPORT_ACCENT = {
 };
 
 const FARES = [
-  { from: "Goa (Candolim)",  to: "Dabolim Airport",    price: "₹900–1,100"   },
-  { from: "Goa (Candolim)",  to: "Mopa Airport",        price: "₹1,200–1,500" },
-  { from: "Goa",             to: "Hubli Airport",        price: "₹5,500–6,500" },
-  { from: "Goa",             to: "Belagavi Airport",     price: "₹5,000–6,000" },
-  { from: "Goa",             to: "Sindhudurg Airport",   price: "₹3,500–4,500" },
+  { from: "Goa (Candolim)",  to: "Dabolim Airport",    price: "₹1800–2000"   },
+  { from: "Goa (Candolim)",  to: "Mopa Airport",        price: "₹1800–2000" },
+  { from: "Goa",             to: "Hubli Airport",        price: "₹12000–15000" },
+  { from: "Goa",             to: "Belagavi Airport",     price: "₹8000–12000" },
+  { from: "Goa",             to: "Sindhudurg Airport",   price: "₹6000–8000" },
 ];
 
 // Service JSON-LD schema
