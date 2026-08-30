@@ -34,14 +34,14 @@ const NEARBY_AREAS = [
 ];
 
 const POPULAR_ROUTES = [
-  { from: "Calangute", to: "Dabolim Airport",  price: "₹900–1,100"  },
-  { from: "Calangute", to: "Mopa Airport",      price: "₹1,200–1,500"},
-  { from: "Calangute", to: "Baga Beach",        price: "₹150–200"   },
-  { from: "Calangute", to: "Anjuna Beach",      price: "₹300–400"   },
-  { from: "Calangute", to: "Panaji",            price: "₹400–500"   },
-  { from: "Calangute", to: "Vagator",           price: "₹400–500"   },
-  { from: "Calangute", to: "Old Goa",           price: "₹500–650"   },
-  { from: "Calangute", to: "Palolem Beach",     price: "₹2,000–2,500"},
+  { from: "Calangute", to: "Dabolim Airport",  price: "₹1800–2000"  },
+  { from: "Calangute", to: "Mopa Airport",      price: "₹1800–2000"},
+  { from: "Calangute", to: "Baga Beach",        price: "₹600–800"   },
+  { from: "Calangute", to: "Anjuna Beach",      price: "₹1000–1200"   },
+  { from: "Calangute", to: "Panaji",            price: "₹1200–1500"   },
+  { from: "Calangute", to: "Vagator",           price: "₹1200–1500"   },
+  { from: "Calangute", to: "Old Goa",           price: "₹1200–1500"   },
+  { from: "Calangute", to: "Palolem Beach",     price: "₹5500–6000"},
 ];
 
 const SERVICES = [

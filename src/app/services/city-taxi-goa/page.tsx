@@ -52,12 +52,12 @@ const ACCENT_STYLES = {
 };
 
 const COMMON_RIDES = [
-  { from: "Candolim",  to: "Calangute Beach", price: "₹700–1000" },
+  { from: "Candolim",  to: "Calangute Beach", price: "₹700–800" },
   { from: "Candolim",  to: "Baga Beach",       price: "₹800–1000" },
-  { from: "Candolim",  to: "Anjuna Beach",     price: "₹850–950" },
-  { from: "Candolim",  to: "Panaji City",      price: "₹900–1100" },
-  { from: "Calangute", to: "Mapusa Market",    price: "₹750–850" },
-  { from: "Candolim",  to: "Old Goa Churches", price: "₹1000–1250" },
+  { from: "Candolim",  to: "Anjuna Beach",     price: "₹1200–1400" },
+  { from: "Candolim",  to: "Panaji City",      price: "₹1200–1500" },
+  { from: "Calangute", to: "Mapusa Market",    price: "₹1000–1200" },
+  { from: "Candolim",  to: "Old Goa Churches", price: "₹1200–1400" },
   { from: "Baga",      to: "Vagator",          price: "₹800–1000" },
   { from: "Panaji",    to: "Miramar Beach",    price: "₹700–800" },
 ];
@@ -104,14 +104,14 @@ const STATION_ACCENT = {
 };
 
 const STATION_FARES = [
-  { from: "Candolim / Calangute", to: "Karmali Station",  price: "₹400–500"   },
-  { from: "Candolim / Calangute", to: "Thivim Station",   price: "₹500–650"   },
-  { from: "Candolim / Calangute", to: "Madgaon Station",  price: "₹1,200–1,500"},
-  { from: "Candolim / Calangute", to: "Vasco Station",    price: "₹900–1,100" },
-  { from: "Baga / Anjuna",        to: "Karmali Station",  price: "₹500–650"   },
-  { from: "Baga / Anjuna",        to: "Thivim Station",   price: "₹600–750"   },
-  { from: "Panaji",               to: "Karmali Station",  price: "₹300–400"   },
-  { from: "Panaji",               to: "Madgaon Station",  price: "₹900–1,100" },
+  { from: "Candolim / Calangute", to: "Karmali Station",  price: "₹1200–1500"   },
+  { from: "Candolim / Calangute", to: "Thivim Station",   price: "₹1200–1500"   },
+  { from: "Candolim / Calangute", to: "Madgaon Station",  price: "₹2300–2500"},
+  { from: "Candolim / Calangute", to: "Vasco Station",    price: "₹2300–2500" },
+  { from: "Baga / Anjuna",        to: "Karmali Station",  price: "₹1200–1500"   },
+  { from: "Baga / Anjuna",        to: "Thivim Station",   price: "₹1200–1500"   },
+  { from: "Panaji",               to: "Karmali Station",  price: "₹800–1000"   },
+  { from: "Panaji",               to: "Madgaon Station",  price: "₹1500–1700" },
 ];
 
 export default function CityTaxiGoaPage() {
