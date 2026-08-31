@@ -34,9 +34,9 @@ export const RENTAL_PACKAGES = [
     pkg4hr:     "₹2,000",
     pkg8hr:     "₹3,000",
     pkg12hr:    "₹4,000",
-    extraKm:    "₹20",
-    extraHr:    "₹200",
-    nightCharge:"₹300",
+    extraKm:    "₹30",
+    extraHr:    "₹300",
+    nightCharge:"₹1000",
   },
   {
     vehicle:    "Ertiga / MUV",
@@ -44,9 +44,9 @@ export const RENTAL_PACKAGES = [
     pkg4hr:     "₹2,500",
     pkg8hr:     "₹3,500",
     pkg12hr:    "₹4,300",
-    extraKm:    "₹22",
-    extraHr:    "₹200",
-    nightCharge:"₹400",
+    extraKm:    "₹32",
+    extraHr:    "₹300",
+    nightCharge:"₹1000",
   },
   {
     vehicle:    "Innova / Crysta",
@@ -54,9 +54,9 @@ export const RENTAL_PACKAGES = [
     pkg4hr:     "₹2,800",
     pkg8hr:     "₹4,200",
     pkg12hr:    "₹6,500",
-    extraKm:    "₹25",
-    extraHr:    "₹300",
-    nightCharge:"₹500",
+    extraKm:    "₹35",
+    extraHr:    "₹350",
+    nightCharge:"₹1200",
   },
 ] as const;
 
