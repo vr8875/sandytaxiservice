@@ -10,7 +10,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Long Distance Taxi from Goa — Intercity Cab | Sandy Taxi",
   description:
-    "Book a long distance taxi from Goa to Mumbai, Pune, Bangalore, Hyderabad, Mangalore and more. Comfortable AC vehicle, experienced driver, planned rest stops. Sandy Taxi +918793680513.",
+    "Book a long distance taxi from Goa to Mumbai, Pune, Bangalore, Hyderabad, Mangalore and more. Comfortable AC vehicle, experienced driver, planned rest stops. Sandy Taxi +9191486 80513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/services/long-distance-taxi",
   },

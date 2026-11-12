@@ -6,7 +6,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Taxi in Calangute Goa — Cab Service Calangute Beach | Sandy Taxi",
   description:
-    "Book a taxi in Calangute, Goa. Reliable cab service from Calangute Beach for airport transfers, sightseeing, outstation and local rides. 24x7, fixed fares. Sandy Taxi +91 8793680513.",
+    "Book a taxi in Calangute, Goa. Reliable cab service from Calangute Beach for airport transfers, sightseeing, outstation and local rides. 24x7, fixed fares. Sandy Taxi +91 91486 80513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/calangute-taxi",
   },

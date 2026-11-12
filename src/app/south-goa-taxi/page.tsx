@@ -6,7 +6,7 @@ import { WHATSAPP_URL, REVIEWS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "South Goa Taxi Service — Cab Hire in South Goa | Sandy Taxi",
   description:
-    "Reliable taxi service in South Goa. Covering Palolem, Colva, Benaulim, Margao, Vasco, Agonda and all South Goa beaches. 24x7, fixed fares. Sandy Taxi +918793680513.",
+    "Reliable taxi service in South Goa. Covering Palolem, Colva, Benaulim, Margao, Vasco, Agonda and all South Goa beaches. 24x7, fixed fares. Sandy Taxi +9191486 80513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/south-goa-taxi",
   },

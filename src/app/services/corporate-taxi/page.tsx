@@ -6,7 +6,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Corporate Taxi Goa — Business Cab Service | Sandy Taxi",
   description:
-    "Professional corporate taxi service in Goa. Business travel, hotel transfers, airport pickups and monthly packages. Reliable, punctual and discreet. Sandy Taxi +918793680513.",
+    "Professional corporate taxi service in Goa. Business travel, hotel transfers, airport pickups and monthly packages. Reliable, punctual and discreet. Sandy Taxi +9191486 80513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/services/corporate-taxi",
   },

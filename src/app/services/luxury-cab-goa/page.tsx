@@ -6,7 +6,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Luxury Cab Goa — Premium Taxi Service | Sandy Taxi",
   description:
-    "Premium luxury cab service in Goa. Innova Crysta, SUV and high-end vehicles for weddings, honeymoons, special occasions and VIP airport transfers. Sandy Taxi +918793680513.",
+    "Premium luxury cab service in Goa. Innova Crysta, SUV and high-end vehicles for weddings, honeymoons, special occasions and VIP airport transfers. Sandy Taxi +9191486 80513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/services/luxury-cab-goa",
   },

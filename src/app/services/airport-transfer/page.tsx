@@ -9,7 +9,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Airport Taxi Goa — Dabolim, Mopa, Hubli, Belagavi & Sindhudurg",
   description:
-    "Reliable airport taxi in Goa and nearby airports. Pickup and drop to Dabolim (GOI), Mopa (GOX), Hubli, Belagavi and Sindhudurg airports. 24x7, fixed fares, flight tracking. Sandy Taxi +918793680513.",
+    "Reliable airport taxi in Goa and nearby airports. Pickup and drop to Dabolim (GOI), Mopa (GOX), Hubli, Belagavi and Sindhudurg airports. 24x7, fixed fares, flight tracking. Sandy Taxi +9191486 80513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/services/airport-transfer",
   },

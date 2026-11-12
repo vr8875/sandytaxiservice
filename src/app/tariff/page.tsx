@@ -12,7 +12,7 @@ import {
 export const metadata: Metadata = {
   title: "Taxi Fare & Tariff in Goa — Sandy Taxi Service",
   description:
-    "Check Sandy Taxi Service fare chart for Goa. Transparent pricing for airport transfers, local rentals, sightseeing packages and outstation trips. No hidden charges. Call +918793680513.",
+    "Check Sandy Taxi Service fare chart for Goa. Transparent pricing for airport transfers, local rentals, sightseeing packages and outstation trips. No hidden charges. Call +9191486 80513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/tariff",
   },
