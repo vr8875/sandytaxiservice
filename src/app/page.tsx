@@ -8,7 +8,7 @@ import CtaBanner        from "@/components/home/CtaBanner";
 export const metadata: Metadata = {
   title: "Sandy Taxi Service Goa — 24x7 Cab Service in Candolim",
   description:
-    "Sandy Taxi Service offers reliable 24x7 cab service in Goa. Airport transfers, sightseeing, outstation & corporate taxi from Candolim, North Goa. Call +91 91486 80513.",
+    "Sandy Taxi Service offers reliable 24x7 cab service in Goa. Airport transfers, sightseeing, outstation & corporate taxi from Candolim, North Goa. Call +91 8793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com",
   },

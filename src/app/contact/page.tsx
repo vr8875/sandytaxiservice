@@ -12,14 +12,14 @@ import { BUSINESS, WHATSAPP_URL, CALL_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Contact Sandy Taxi Service — Book a Cab in Goa",
   description:
-    "Contact Sandy Taxi Service to book a cab in Goa. Call or WhatsApp +9191486 80513. Based in Candolim, North Goa. Available 24x7 for airport transfers, sightseeing and outstation trips.",
+    "Contact Sandy Taxi Service to book a cab in Goa. Call or WhatsApp +918793680513. Based in Candolim, North Goa. Available 24x7 for airport transfers, sightseeing and outstation trips.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/contact",
   },
   openGraph: {
     title: "Contact Sandy Taxi Service — Book a Cab in Goa",
     description:
-      "Call or WhatsApp +9191486 80513 to book a cab in Goa. 24x7 available from Candolim.",
+      "Call or WhatsApp +918793680513 to book a cab in Goa. 24x7 available from Candolim.",
     url: "https://www.sandytaxiservice.com/contact",
   },
 };

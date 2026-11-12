@@ -10,7 +10,7 @@ import { WHATSAPP_URL, DUDHSAGAR_PRICES } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Taxi to Dudhsagar Falls Goa — Day Trip Cab | Sandy Taxi",
   description:
-    "Book a taxi to Dudhsagar Falls from anywhere in Goa. Full day round trip cab service to India's tallest waterfall. Fixed fares, experienced driver. Sandy Taxi +9191486 80513.",
+    "Book a taxi to Dudhsagar Falls from anywhere in Goa. Full day round trip cab service to India's tallest waterfall. Fixed fares, experienced driver. Sandy Taxi +918793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/destinations/dudhsagar-falls-taxi",
   },
@@ -58,7 +58,7 @@ function DudhsagarSchema() {
     provider: {
       "@type": "TaxiService",
       name: "Sandy Taxi Service",
-      telephone: "+919148680513",
+      telephone: "+918793680513",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Candolim",
