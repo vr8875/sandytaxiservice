@@ -9,7 +9,7 @@ import { OUTSTATION_ROUTES, WHATSAPP_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Outstation Taxi from Goa — Pune, Mumbai, Bangalore & More",
   description:
-    "Book outstation cab from Goa to Pune, Mumbai, Bangalore, Mangalore, Gokarna and more. Fixed fares, experienced driver, comfortable AC vehicle. Sandy Taxi +91 91486 80513.",
+    "Book outstation cab from Goa to Pune, Mumbai, Bangalore, Mangalore, Gokarna and more. Fixed fares, experienced driver, comfortable AC vehicle. Sandy Taxi +918793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/services/outstation-taxi",
   },

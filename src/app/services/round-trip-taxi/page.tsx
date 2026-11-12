@@ -9,7 +9,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Round Trip Taxi Goa — Same Day Return Cab | Sandy Taxi",
   description:
-    "Book a round trip taxi in Goa for same-day return journeys. Flexible scheduling, fixed fares, AC vehicle. Ideal for day trips, outstation visits and local tours. Sandy Taxi +91 91486 80513.",
+    "Book a round trip taxi in Goa for same-day return journeys. Flexible scheduling, fixed fares, AC vehicle. Ideal for day trips, outstation visits and local tours. Sandy Taxi +918793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/services/round-trip-taxi",
   },

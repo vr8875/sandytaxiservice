@@ -6,7 +6,7 @@ import { WHATSAPP_URL } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "North Goa Taxi Service — Cab Hire in North Goa | Sandy Taxi",
   description:
-    "Reliable taxi service in North Goa. Covering Candolim, Calangute, Baga, Anjuna, Vagator, Mapusa, Panaji and all North Goa beaches. 24x7, fixed fares. Sandy Taxi +91 91486 80513.",
+    "Reliable taxi service in North Goa. Covering Candolim, Calangute, Baga, Anjuna, Vagator, Mapusa, Panaji and all North Goa beaches. 24x7, fixed fares. Sandy Taxi +918793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/north-goa-taxi",
   },

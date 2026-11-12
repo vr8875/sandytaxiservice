@@ -6,7 +6,7 @@ import { WHATSAPP_URL, CALL_URL, BUSINESS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "City Taxi in Goa — 24x7 Local Cab & Railway Station Transfer | Sandy Taxi",
   description:
-    "Book a city taxi in Goa anytime. 24x7 local cab covering all beaches, hotels, markets and railway stations — Madgaon, Karmali, Thivim and Vasco. Quick pickup, fixed fares. Sandy Taxi +91 91486 80513.",
+    "Book a city taxi in Goa anytime. 24x7 local cab covering all beaches, hotels, markets and railway stations — Madgaon, Karmali, Thivim and Vasco. Quick pickup, fixed fares. Sandy Taxi +918793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/services/city-taxi-goa",
   },

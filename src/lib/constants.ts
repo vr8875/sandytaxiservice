@@ -2,7 +2,7 @@ export const BUSINESS = {
   name:         "Sandy Taxi Service",
   tagline:      "Beach Sides Transportation 24x7",
   phone:        "9148680513",
-  phoneDisplay: "+91 91486 80513",
+  phoneDisplay: "+918793680513",
   whatsapp:     "919148680513",
   whatsappMsg:  "Hi Sandy, I'd like to book a taxi in Goa.",
   address: {

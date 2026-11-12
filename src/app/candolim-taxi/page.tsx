@@ -10,14 +10,14 @@ import { Plane, Compass, Route } from "lucide-react";
 export const metadata: Metadata = {
   title: "Taxi in Candolim Goa — 24x7 Cab Service | Sandy Taxi",
   description:
-    "Looking for a taxi in Candolim, Goa? Sandy Taxi Service is based in Candolim and offers 24x7 cab service for airport transfers, sightseeing, outstation and local rides. Call +91 91486 80513.",
+    "Looking for a taxi in Candolim, Goa? Sandy Taxi Service is based in Candolim and offers 24x7 cab service for airport transfers, sightseeing, outstation and local rides. Call +91 8793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/candolim-taxi",
   },
   openGraph: {
     title: "Taxi in Candolim Goa — 24x7 Cab Service | Sandy Taxi",
     description:
-      "Candolim-based taxi service. 24x7 airport transfers, sightseeing & outstation. Call +91 91486 80513.",
+      "Candolim-based taxi service. 24x7 airport transfers, sightseeing & outstation. Call +918793680513.",
     url: "https://www.sandytaxiservice.com/candolim-taxi",
   },
 };

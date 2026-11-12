@@ -9,7 +9,7 @@ import { WHATSAPP_URL, BUSINESS } from "@/lib/constants";
 export const metadata: Metadata = {
   title: "Goa Airport Taxi — Dabolim & Mopa Airport Cab | Sandy Taxi",
   description:
-    "Pre-book airport taxi in Goa. Cab service to and from Dabolim (GOI) and Mopa Manohar International Airport. 24x7, fixed fares, meet & greet. Sandy Taxi +91 91486 80513.",
+    "Pre-book airport taxi in Goa. Cab service to and from Dabolim (GOI) and Mopa Manohar International Airport. 24x7, fixed fares, meet & greet. Sandy Taxi +918793680513.",
   alternates: {
     canonical: "https://www.sandytaxiservice.com/goa-airport-taxi",
   },

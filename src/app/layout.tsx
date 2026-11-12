@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | Sandy Taxi Service Goa",
   },
   description:
-    "Sandy Taxi Service — reliable 24x7 cab service in Goa. Airport transfers, sightseeing tours, outstation trips & more. Based in Candolim, North Goa. Call +91 91486 80513.",
+    "Sandy Taxi Service — reliable 24x7 cab service in Goa. Airport transfers, sightseeing tours, outstation trips & more. Based in Candolim, North Goa. Call +91 8793680513.",
   keywords: [
     "taxi in goa",
     "cab service goa",
